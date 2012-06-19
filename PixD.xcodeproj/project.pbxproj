@@ -13,6 +13,9 @@
 		747C8BA5158F3FC5008FF26A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 747C8BA3158F3FC5008FF26A /* Credits.rtf */; };
 		747C8BA8158F3FC5008FF26A /* DKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C8BA7158F3FC5008FF26A /* DKAppDelegate.m */; };
 		747C8BAB158F3FC6008FF26A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747C8BA9158F3FC5008FF26A /* MainMenu.xib */; };
+		747C8BB2158F3FDE008FF26A /* PixD.icns in Resources */ = {isa = PBXBuildFile; fileRef = 747C8BB1158F3FDE008FF26A /* PixD.icns */; };
+		747C8BB5158F400C008FF26A /* DKParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C8BB4158F400C008FF26A /* DKParser.m */; };
+		747C8BB8158F41A6008FF26A /* NSString+DKStringExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C8BB7158F41A6008FF26A /* NSString+DKStringExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +24,19 @@
 		747C8B97158F3FC5008FF26A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		747C8B98158F3FC5008FF26A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		747C8B99158F3FC5008FF26A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		747C8B9C158F3FC5008FF26A /* PixD-Info.plist */ = {isa = PBXFileReference; path = "PixD-Info.plist"; sourceTree = "<group>"; };
+		747C8B9C158F3FC5008FF26A /* PixD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PixD-Info.plist"; sourceTree = "<group>"; };
 		747C8B9E158F3FC5008FF26A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		747C8BA0158F3FC5008FF26A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		747C8BA2158F3FC5008FF26A /* PixD-Prefix.pch */ = {isa = PBXFileReference; path = "PixD-Prefix.pch"; sourceTree = "<group>"; };
+		747C8BA2158F3FC5008FF26A /* PixD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PixD-Prefix.pch"; sourceTree = "<group>"; };
 		747C8BA4158F3FC5008FF26A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		747C8BA6158F3FC5008FF26A /* DKAppDelegate.h */ = {isa = PBXFileReference; path = DKAppDelegate.h; sourceTree = "<group>"; };
+		747C8BA6158F3FC5008FF26A /* DKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAppDelegate.h; sourceTree = "<group>"; };
 		747C8BA7158F3FC5008FF26A /* DKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAppDelegate.m; sourceTree = "<group>"; };
 		747C8BAA158F3FC5008FF26A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		747C8BB1158F3FDE008FF26A /* PixD.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = PixD.icns; sourceTree = "<group>"; };
+		747C8BB3158F400C008FF26A /* DKParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKParser.h; sourceTree = "<group>"; };
+		747C8BB4158F400C008FF26A /* DKParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKParser.m; sourceTree = "<group>"; };
+		747C8BB6158F41A6008FF26A /* NSString+DKStringExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DKStringExtension.h"; sourceTree = "<group>"; };
+		747C8BB7158F41A6008FF26A /* NSString+DKStringExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DKStringExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,7 @@
 		747C8B85158F3FC5008FF26A = {
 			isa = PBXGroup;
 			children = (
+				747C8BB1158F3FDE008FF26A /* PixD.icns */,
 				747C8B9A158F3FC5008FF26A /* PixD */,
 				747C8B93158F3FC5008FF26A /* Frameworks */,
 				747C8B91158F3FC5008FF26A /* Products */,
@@ -84,6 +93,10 @@
 			children = (
 				747C8BA6158F3FC5008FF26A /* DKAppDelegate.h */,
 				747C8BA7158F3FC5008FF26A /* DKAppDelegate.m */,
+				747C8BB3158F400C008FF26A /* DKParser.h */,
+				747C8BB4158F400C008FF26A /* DKParser.m */,
+				747C8BB6158F41A6008FF26A /* NSString+DKStringExtension.h */,
+				747C8BB7158F41A6008FF26A /* NSString+DKStringExtension.m */,
 				747C8BA9158F3FC5008FF26A /* MainMenu.xib */,
 				747C8B9B158F3FC5008FF26A /* Supporting Files */,
 			);
@@ -155,6 +168,7 @@
 				747C8B9F158F3FC5008FF26A /* InfoPlist.strings in Resources */,
 				747C8BA5158F3FC5008FF26A /* Credits.rtf in Resources */,
 				747C8BAB158F3FC6008FF26A /* MainMenu.xib in Resources */,
+				747C8BB2158F3FDE008FF26A /* PixD.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +181,8 @@
 			files = (
 				747C8BA1158F3FC5008FF26A /* main.m in Sources */,
 				747C8BA8158F3FC5008FF26A /* DKAppDelegate.m in Sources */,
+				747C8BB5158F400C008FF26A /* DKParser.m in Sources */,
+				747C8BB8158F41A6008FF26A /* NSString+DKStringExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +304,7 @@
 				747C8BB0158F3FC6008FF26A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
